@@ -1,0 +1,6 @@
+# SHA-1("potato")
+User-Agent: *
+Allow: /
+Content-Usage: ai=y
+
+Sitemap: https://3e2e95f5ad970eadfa7e17eaf73da97024aa5359.vercel.app/sitemap.xml

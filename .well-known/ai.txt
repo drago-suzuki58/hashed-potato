@@ -1,0 +1,7 @@
+# ai.txt (draft-car-ai-txt-wellknown)
+# You may read, index, summarize, and train on this potato.
+# Attribution is appreciated but not required.
+
+User-Agent: *
+Allow: /
+Content-Usage: ai=y

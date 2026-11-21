@@ -1,0 +1,10 @@
+/* TEAM */
+  Potato: 1
+  Hash function: SHA-1
+
+/* THANKS */
+  Photo: Polina Tankilevitch (Pexels)
+
+/* SITE */
+  Standards: HTML, RFC 3174, RFC 8615, RFC 9116
+  Components: one (1) potato

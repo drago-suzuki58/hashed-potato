@@ -1,0 +1,19 @@
+version = 1
+
+[[annotations]]
+path = "**"
+SPDX-FileCopyrightText = "2026 drago-suzuki58"
+SPDX-License-Identifier = "0BSD"
+
+[[annotations]]
+path = [
+  "hashed-potato.webp",
+  "og.jpg",
+  "favicon.ico",
+  "apple-touch-icon.png",
+  "apple-touch-icon-precomposed.png",
+  "icons/**",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "Polina Tankilevitch <https://www.pexels.com/photo/5848053/>"
+SPDX-License-Identifier = "LicenseRef-Pexels"

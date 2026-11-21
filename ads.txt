@@ -1,0 +1,2 @@
+# This site serves no ads. Only potato.
+placeholder.example.com, placeholder, DIRECT, placeholder

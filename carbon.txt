@@ -1,0 +1,8 @@
+# carbon.txt
+# One static page and one photo of a potato.
+# The potato itself was fried exactly once, before this site existed.
+
+[upstream]
+services = [
+  { domain = "vercel.com", service_type = "shared-hosting" }
+]

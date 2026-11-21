@@ -1,0 +1,15 @@
+{
+  "name": "3e2e95f5ad970eadfa7e17eaf73da97024aa5359",
+  "short_name": "potato",
+  "description": "SHA-1(\"potato\")",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#dde2e4",
+  "theme_color": "#dde2e4",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

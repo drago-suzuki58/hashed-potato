@@ -1,0 +1,70 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/.well-known/change-password", "destination": "/", "permanent": false }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Content-Security-Policy", "value": "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; manifest-src 'self'; connect-src 'self'; worker-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests" },
+        { "key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains; preload" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "no-referrer" },
+        { "key": "Permissions-Policy", "value": "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=(), interest-cohort=(), browsing-topics=()" },
+        { "key": "Cross-Origin-Opener-Policy", "value": "same-origin" },
+        { "key": "Cross-Origin-Embedder-Policy", "value": "require-corp" },
+        { "key": "Cross-Origin-Resource-Policy", "value": "same-origin" },
+        { "key": "Content-Usage", "value": "ai=y" },
+        { "key": "X-Potato", "value": "3e2e95f5ad970eadfa7e17eaf73da97024aa5359" }
+      ]
+    },
+    {
+      "source": "/",
+      "headers": [
+        { "key": "Server-Timing", "value": "peel;dur=60000;desc=\"Peel\", grate;dur=120000;desc=\"Grate\", fry;dur=180000;desc=\"Fry\", sha1;dur=0.001;desc=\"SHA-1\"" }
+      ]
+    },
+    {
+      "source": "/hashed-potato.webp",
+      "headers": [
+        { "key": "Repr-Digest", "value": "sha-256=:dMCAdzFng+xbLIqknNAIXUbCLJl3Gg3Sh6wmvwmB1qQ=:" },
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/(og.jpg|favicon.ico|apple-touch-icon.png|apple-touch-icon-precomposed.png)",
+      "headers": [
+        { "key": "Cross-Origin-Resource-Policy", "value": "cross-origin" }
+      ]
+    },
+    {
+      "source": "/sw.js",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache" },
+        { "key": "Service-Worker-Allowed", "value": "/" }
+      ]
+    },
+    {
+      "source": "/manifest.webmanifest",
+      "headers": [{ "key": "Content-Type", "value": "application/manifest+json" }]
+    },
+    {
+      "source": "/.well-known/traffic-advice",
+      "headers": [{ "key": "Content-Type", "value": "application/trafficadvice+json" }]
+    },
+    {
+      "source": "/.well-known/(security.txt|ai.txt)",
+      "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }]
+    },
+    {
+      "source": "/feed.xml",
+      "headers": [{ "key": "Content-Type", "value": "application/atom+xml; charset=utf-8" }]
+    },
+    {
+      "source": "/opensearch.xml",
+      "headers": [{ "key": "Content-Type", "value": "application/opensearchdescription+xml" }]
+    }
+  ]
+}

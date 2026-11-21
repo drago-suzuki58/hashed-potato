@@ -1,0 +1,6 @@
+html, body { margin: 0; height: 100%; background: #dde2e4; }
+body { display: grid; place-items: center; }
+img { max-width: min(90vw, 800px); height: auto; mask-image: radial-gradient(ellipse at center, #000 55%, transparent 75%); }
+small { position: fixed; bottom: 8px; right: 12px; font: 11px sans-serif; color: #555; }
+a { color: inherit; }
+.nf { font: 14px monospace; color: #555; text-align: center; }

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>potato</ShortName>
+  <Description>Search anything. Get potato.</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="48" height="48" type="image/x-icon">https://3e2e95f5ad970eadfa7e17eaf73da97024aa5359.vercel.app/favicon.ico</Image>
+  <Url type="text/html" template="https://3e2e95f5ad970eadfa7e17eaf73da97024aa5359.vercel.app/?q={searchTerms}"/>
+</OpenSearchDescription>
