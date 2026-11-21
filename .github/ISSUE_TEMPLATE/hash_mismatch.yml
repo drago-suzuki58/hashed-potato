@@ -1,0 +1,31 @@
+name: Hash mismatch
+description: The potato does not hash to the expected value.
+labels: [bug]
+body:
+  - type: input
+    id: expected
+    attributes:
+      label: Expected hash
+      value: 3e2e95f5ad970eadfa7e17eaf73da97024aa5359
+    validations:
+      required: true
+  - type: input
+    id: actual
+    attributes:
+      label: Actual hash
+      placeholder: The hash you observed
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      value: |
+        1. printf potato | sha1sum
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I did not include a trailing newline (echo potato is not the same potato).
+          required: true

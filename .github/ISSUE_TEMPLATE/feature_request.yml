@@ -1,0 +1,19 @@
+name: Feature request
+description: Suggest an improvement to the potato.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: This proposal does not add a second potato.
+          required: true
+        - label: This proposal does not involve SHA-256.
+          required: true

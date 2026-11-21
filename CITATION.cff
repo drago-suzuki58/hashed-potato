@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this potato, please cite it as below."
+title: "3e2e95f5ad970eadfa7e17eaf73da97024aa5359"
+abstract: 'SHA-1("potato")'
+type: software
+authors:
+  - alias: drago-suzuki58
+version: 1.0.0
+date-released: 2026-11-22
+license: 0BSD
+repository-code: "https://github.com/drago-suzuki58/hashed-potato"
+url: "https://3e2e95f5ad970eadfa7e17eaf73da97024aa5359.vercel.app/"
+keywords:
+  - potato
+  - SHA-1
+  - hash brown
